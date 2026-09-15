@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Barlow Condensed", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+
+  --color-background-50: oklch(0.985 0.006 85);
+  --color-background-100: oklch(0.965 0.008 85);
+  --color-background-200: oklch(0.94 0.01 85);
+  --color-background-300: oklch(0.9 0.014 85);
+  --color-background-400: oklch(0.82 0.016 85);
+  --color-background-500: oklch(0.72 0.018 85);
+  --color-background-600: oklch(0.6 0.016 85);
+  --color-background-700: oklch(0.45 0.012 85);
+  --color-background-800: oklch(0.32 0.01 85);
+  --color-background-900: oklch(0.22 0.008 85);
+  --color-background-950: oklch(0.15 0.006 85);
+
+  --color-primary-50: oklch(0.965 0.004 80);
+  --color-primary-100: oklch(0.925 0.006 80);
+  --color-primary-200: oklch(0.86 0.01 80);
+  --color-primary-300: oklch(0.72 0.014 80);
+  --color-primary-400: oklch(0.52 0.018 82);
+  --color-primary-500: oklch(0.3 0.018 82);
+  --color-primary-600: oklch(0.24 0.016 82);
+  --color-primary-700: oklch(0.2 0.014 83);
+  --color-primary-800: oklch(0.17 0.012 83);
+  --color-primary-900: oklch(0.145 0.01 84);
+  --color-primary-950: oklch(0.115 0.008 84);
+
+  --color-accent-50: oklch(0.97 0.045 85);
+  --color-accent-100: oklch(0.95 0.075 82);
+  --color-accent-200: oklch(0.9 0.11 78);
+  --color-accent-300: oklch(0.84 0.135 74);
+  --color-accent-400: oklch(0.78 0.15 71);
+  --color-accent-500: oklch(0.7 0.16 68);
+  --color-accent-600: oklch(0.59 0.145 63);
+  --color-accent-700: oklch(0.47 0.11 58);
+  --color-accent-800: oklch(0.36 0.08 52);
+  --color-accent-900: oklch(0.27 0.06 48);
+  --color-accent-950: oklch(0.19 0.04 46);
+
+  --color-foreground-50: oklch(0.98 0.002 65);
+  --color-foreground-100: oklch(0.94 0.004 65);
+  --color-foreground-200: oklch(0.87 0.006 65);
+  --color-foreground-300: oklch(0.75 0.008 65);
+  --color-foreground-400: oklch(0.6 0.008 65);
+  --color-foreground-500: oklch(0.46 0.008 65);
+  --color-foreground-600: oklch(0.36 0.008 65);
+  --color-foreground-700: oklch(0.28 0.008 65);
+  --color-foreground-800: oklch(0.2 0.008 65);
+  --color-foreground-900: oklch(0.14 0.006 65);
+  --color-foreground-950: oklch(0.09 0.004 65);
+}
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  /* Visually hidden until keyboard-focused; used for the skip-to-content link. */
+  .skip-link {
+    position: absolute;
+    top: -3rem;
+    left: 1rem;
+    z-index: 100;
+  }
+
+  .skip-link:focus {
+    top: 1rem;
+  }
+
+  /* Honeypot field for spam bots; kept out of the visual and a11y tree. */
+  .hp-field {
+    position: absolute;
+    top: auto;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .hero-zoom {
+    animation: slow-zoom 18s ease-in-out infinite alternate;
+  }
+
+  .pulse-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: currentColor;
+    animation: soft-pulse 2.4s ease-in-out infinite;
+  }
+
+  .reveal {
+    opacity: 0;
+    will-change: opacity, transform;
+    transition:
+      opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal-up {
+    transform: translateY(28px);
+  }
+
+  .reveal-left {
+    transform: translateX(-32px);
+  }
+
+  .reveal-right {
+    transform: translateX(32px);
+  }
+
+  .reveal-scale {
+    transform: scale(0.92);
+  }
+
+  .reveal-fade {
+    transform: none;
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .hero-zoom,
+    .pulse-dot::after {
+      animation: none;
+      transition: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@keyframes slow-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes soft-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1.35);
+  }
+}
