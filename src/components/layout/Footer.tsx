@@ -57,10 +57,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:fahmsconstruction@yahoo.com"
+                  href="mailto:contact@fahmsconstruction.com"
                   className="flex items-center gap-2 transition-colors hover:text-accent-600"
                 >
-                  <i className="ri-mail-line" aria-hidden="true" /> fahmsconstruction@yahoo.com
+                  <i className="ri-mail-line" aria-hidden="true" /> contact@fahmsconstruction.com
                 </a>
               </li>
               <li className="flex items-start gap-2 text-foreground-600">

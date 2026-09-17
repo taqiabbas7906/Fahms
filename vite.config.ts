@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "vite-plugin-sitemap";
 
-const SITE_URL = "https://fahmsconstruction.example";
+const SITE_URL = "https://fahmsconstruction.com";
 
 export default defineConfig({
   resolve: {
