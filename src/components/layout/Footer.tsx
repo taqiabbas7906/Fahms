@@ -110,17 +110,6 @@ export default function Footer() {
           <div className="relative flex flex-col items-center justify-between gap-3 px-5 py-5 text-center text-xs text-foreground-500 sm:flex-row sm:px-6 sm:text-left md:px-12">
             <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-3">
               <p>© {year} FAHMS Construction &amp; Builders · Maryland</p>
-              <span aria-hidden="true" className="hidden text-foreground-300 sm:inline">
-                ·
-              </span>
-              <a
-                href="https://www.teqbeyond.com"
-                target="_blank"
-                rel="noreferrer"
-                className="transition-colors hover:text-accent-600"
-              >
-                Made by Teqbeyond
-              </a>
             </div>
             <div className="flex items-center gap-5">
               <a href="#" rel="nofollow" className="hover:text-accent-600">
