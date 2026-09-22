@@ -6,19 +6,19 @@ export interface JourneyMilestone {
 
 export const journeyMilestones: JourneyMilestone[] = [
   {
-    year: "2004",
+    year: "2009",
     title: "The first crew",
     description:
       "FAHMS began as a small Maryland remodeling crew, taking on kitchens, baths and decks with a simple promise: do it right the first time.",
   },
   {
-    year: "2009",
+    year: "2012",
     title: "Licensed general contractor",
     description:
       "We earned our Maryland contractor licence (MHIC #168360) and grew into full-service general contracting — from permits to punch list.",
   },
   {
-    year: "2014",
+    year: "2016",
     title: "Additions & custom builds",
     description:
       "A run of successful home additions led to our first ground-up custom homes, expanding our team of carpenters, framers and finish trades.",

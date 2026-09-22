@@ -42,7 +42,7 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const trustStats = [
-  { value: "20+", label: "Years in construction" },
+  { value: "15+", label: "Years in construction" },
   { value: "350+", label: "Projects completed" },
   { value: "5.0", label: "Average client rating" },
   { value: "MHIC", label: "#168360 Licensed & Insured" },

@@ -6,7 +6,7 @@ import Reveal from "@/components/ui/Reveal";
 const aboutHighlights = [
   {
     icon: "ri-calendar-2-line",
-    title: "20+ years",
+    title: "15+ years",
     text: "Serving Maryland homeowners since 2004",
   },
   {
