@@ -6,7 +6,7 @@ export interface JourneyMilestone {
 
 export const journeyMilestones: JourneyMilestone[] = [
   {
-    year: "2009",
+    year: "2011",
     title: "The first crew",
     description:
       "FAHMS began as a small Maryland remodeling crew, taking on kitchens, baths and decks with a simple promise: do it right the first time.",
@@ -33,6 +33,6 @@ export const journeyMilestones: JourneyMilestone[] = [
     year: "2024",
     title: "Statewide reach",
     description:
-      "Two decades in, FAHMS has grown into a trusted, family-run general contractor serving homeowners in communities across Maryland.",
+      "Decades in, FAHMS has grown into a trusted, family-run general contractor serving homeowners in communities across Maryland.",
   },
 ];

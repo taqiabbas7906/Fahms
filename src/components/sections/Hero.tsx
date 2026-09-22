@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="mb-5 flex items-center gap-3">
               <span className="h-px w-10 bg-accent-500" aria-hidden="true" />
               <span className="text-[11px] font-semibold tracking-[0.22em] text-foreground-800 uppercase sm:text-xs">
-                Serving Maryland · Est. 2004
+                Serving Maryland · Est. 2011
               </span>
             </div>
           </Reveal>

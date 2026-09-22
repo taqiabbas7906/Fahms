@@ -7,7 +7,7 @@ const aboutHighlights = [
   {
     icon: "ri-calendar-2-line",
     title: "15+ years",
-    text: "Serving Maryland homeowners since 2004",
+    text: "Serving Maryland homeowners since 2011",
   },
   {
     icon: "ri-shield-check-line",
@@ -227,7 +227,7 @@ export default function About() {
                 </span>
               </div>
               <h3 className="text-2xl font-heading font-bold tracking-tight text-foreground-950 sm:text-3xl md:text-4xl">
-                Two decades of building <em className="font-serif text-accent-700 italic font-normal">Maryland</em>
+                Decades of building <em className="font-serif text-accent-700 italic font-normal">Maryland</em>
               </h3>
             </div>
 

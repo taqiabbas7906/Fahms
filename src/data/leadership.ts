@@ -20,20 +20,17 @@ highlights: [
 "Project and contractor coordination",
 "Clear client communication",
 "Scheduling and administrative support",
+"15 years of construction experience"
 ],
   },
   {
 name: "Mohammad Razvi",
-role: "Director of Construction",
+role: "Director",
 tagline: "Hands-on leadership, built on experience",
 image:
 "https://static.readdy.ai/image/f4cf296597105ca7841528ad6382b5ee/74441f3d0f5bb6e34e7e0c0901505b24.jpeg",
-bio: "With 15 years of construction experience, Mohammad brings a hands-on approach to leading crews and delivering quality work. He combines practical expertise with a strong commitment to professionalism, fairness, and getting every detail right. His leadership helps keep projects organized, teams aligned, and work moving forward to a high standard.",
+bio: "Supports day to day operations, helping coordinate projects, communicate with clients and contractors, manage schedules, and ensuring work progresses smoothly.",
 highlights: [
-"15 years of construction experience",
-"Licensed Maryland contractor (MHIC #168360)",
-"Hands-on leadership and project oversight",
-"Commitment to quality workmanship and client satisfaction",
 ],
   },
 ];
