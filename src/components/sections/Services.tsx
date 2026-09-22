@@ -73,7 +73,7 @@ export default function Services() {
                     height={560}
                     loading="lazy"
                     decoding="async"
-                    className="absolute inset-0 h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                    className="absolute inset-0 h-full w-full object-cover object-top transition-transform duration-700 will-change-transform group-hover:scale-110"
                   />
                   <div
                     aria-hidden="true"
