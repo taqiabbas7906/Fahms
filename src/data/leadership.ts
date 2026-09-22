@@ -24,7 +24,7 @@ highlights: [
   },
   {
 name: "Mohammad Razvi",
-role: "Director of Construction",
+role: "Director",
 tagline: "Hands-on leadership, built on experience",
 image:
 "https://static.readdy.ai/image/f4cf296597105ca7841528ad6382b5ee/74441f3d0f5bb6e34e7e0c0901505b24.jpeg",
