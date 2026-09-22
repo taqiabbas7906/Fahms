@@ -9,7 +9,9 @@ const layout: { id: string; className: string }[] = [
   { id: "fencing", className: "lg:col-span-2" },
   { id: "deck", className: "lg:col-span-2" },
   { id: "bathroom", className: "lg:col-span-2" },
-  { id: "basement", className: "lg:col-span-2" },
+  { id: "basement", className: "lg:col-span-2 lg:row-span-2" },
+  { id: "patios", className: "lg:col-span-2" },
+  { id: "hardscaping", className: "lg:col-span-2" },
 ];
 
 export default function Services() {

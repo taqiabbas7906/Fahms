@@ -88,4 +88,24 @@ export const services: ServiceItem[] = [
     image:
       "https://readdy.ai/api/search-image?query=A%20finished%20basement%20family%20room%20with%20plush%20carpet%2C%20built-in%20shelving%2C%20warm%20recessed%20lighting%20and%20a%20cozy%20living%20area%2C%20realistic%20interior%20photography&width=720&height=560&seq=svc-basement-08&orientation=landscape",
   },
+  {
+    id: "patios",
+    icon: "ri-home-gear-line",
+    title: "Patios",
+    short: "Inviting outdoor patios built for gathering and relaxing.",
+    description:
+      "Create an outdoor space you'll use all season with a thoughtfully built patio. We install durable concrete, paver and stone surfaces with clean grading, lasting drainage and details that complement your home.",
+    image:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=720&h=560&q=85",
+  },
+  {
+    id: "hardscaping",
+    icon: "ri-landscape-line",
+    title: "Hardscaping",
+    short: "Durable stonework and landscape features that elevate your property.",
+    description:
+      "From walkways and retaining walls to steps and seat walls, we shape outdoor spaces with carefully installed pavers and natural stone. Every detail is built for beauty, stability and years of use.",
+    image:
+      "https://images.unsplash.com/photo-1558521958-0a228e77e984?auto=format&fit=crop&w=720&h=560&q=85",
+  },
 ];
