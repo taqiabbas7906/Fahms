@@ -105,7 +105,6 @@ export const services: ServiceItem[] = [
     short: "Durable stonework and landscape features that elevate your property.",
     description:
       "From walkways and retaining walls to steps and seat walls, we shape outdoor spaces with carefully installed pavers and natural stone. Every detail is built for beauty, stability and years of use.",
-    image:
-      "https://images.unsplash.com/photo-1558521958-0a228e77e984?auto=format&fit=crop&w=720&h=560&q=85",
+    image: "/images/hardscaping-pathway.jpe",
   },
 ];
