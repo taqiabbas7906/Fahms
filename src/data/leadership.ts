@@ -9,7 +9,7 @@ export interface Leader {
 
 export const leaders: Leader[] = [
   {
-  name: "Irfan Kazmi",
+  name: "Irfan Abbas",
 role: "Chief Executive Officer",
 tagline: "Supporting every project from behind the scenes",
 image:
